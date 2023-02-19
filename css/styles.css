@@ -1,54 +1,44 @@
 @font-face {
-    font-family: Inter;
-    src: url("/Site/Inter/Inter-VariableFont_slnt\,wght.ttf") format(ttf);
+    font-family: Nunito;
+    src: url(Nunito.ttf);
 }
 
 *{
-    font-family: "Inter" , sans-serif;
+    font-family: Nunito;
     margin: 0;
     padding: 0;
 }
 
 header {
-    display: flex;
-    align-items: center;
     padding: 5px;
     background-color:whitesmoke;
-
 }
 header img{
     height: 50px;
     margin: 25px;
 }
-
-#eyes , #eyes img {
-    position: relative;
-}
-.left{
-    background-color: blue;
-    top: 0px;
-    left: 0px;
-}
-
-nav ul{
-    list-style-type: none;
+.navbar{
     display: flex;
-    flex-direction:row;  
-    padding-left: 50px;
-    gap: 150px;
+    align-items: center;
 }
-nav ul a{
-    padding: 25px;
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: 70px;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-item a {
+    color: #17162E;
     text-decoration: none;
+    font-weight: 700;
 }
-nav ul a:visited{
-    color: black;
-}
-nav ul a:hover{
-    text-decoration: underline;
-}
+
+
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     background-color: white;
 }
 
