@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMRT Inscription</title>
+    <link rel="stylesheet" type="text/css" href="css/style_inscrption.css">
+</head>
+<body>
+    <form id="inscription" action="inscription.php" method="get" >
+        <header>
+            <nav class="navbar">
+                 <a href="index.html">
+                     <img src="./images/1x/logo.png" alt="logo">
+                 </a>
+                 <ul class="nav-list">
+                     <li class="nav-item">
+                            <a href="index.html"> <span class="souligner"> ACCEUIL</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a href=""> <span class="souligner"> SMRT</span></a>
+                    </li>
+                     <li class="nav-item">
+                         <a href=""> <span class="souligner"> QUIZZ</span></a>
+                     </li>
+
+                </ul> 
+            </nav>
+        </header> 
+        <div id="container">
+            <label  >Nom:
+                <input type="text" name="Nom" placeholder="Nom" size="30" pattern="[A-Za-z][A-Za-z ]{0,28}[A-Za-z]">
+            </label> 
+                <hr>
+                <br>
+            <label> Prenom: 
+                <input type="text" name="Prenom" placeholder="Prenom" size="30" pattern="[A-Za-z][A-Za-z ]{0,28}[A-Za-z]">
+            </label> 
+                <hr>
+                <br>
+                <label> Nom D'utilisateur:
+                    <input type="text" name="Username" placeholder="Nom D'utilisateur" size="30"> 
+            </label> 
+                    <hr>
+                    <br>
+            <label  >Mail:
+                <input type="email" name="MAIL" id="mail" placeholder="SMRT@gmail.com" size="30">
+            </label> 
+            <hr>
+            <br>
+            <p><input class="Validation" type="submit" name="soumet" value="Valider"  /> </p>
+            
+
+
+        </div>
+    </form>
+
+    
+</body>
+</html>
